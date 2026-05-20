@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>东莞市瑄瑄家服装有限责任公司 - 中老年毛衣工厂直供</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #8B0000;
+            color: white;
+            padding: 1.5rem 5%;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 5%;
+        }
+        .section {
+            margin-bottom: 3rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #8B0000;
+            margin-bottom: 1rem;
+            border-left: 4px solid #8B0000;
+            padding-left: 10px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        .product-card {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        .highlight {
+            color: #8B0000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>东莞市瑄瑄家服装有限责任公司</h1>
+        <p>13年毛衣工厂 · 中老年服饰源头厂家</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>关于我们</h2>
+            <p>我们是位于东莞大朗的自有毛衣工厂，拥有18台电脑机，深耕中老年毛衣、亲子装领域13年。专注为电商客户提供<span class="highlight">一件代发、批发、小单快返</span>服务，品质稳定，出货高效。</p>
+        </div>
+
+        <div class="section">
+            <h2>主营产品</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div style="height:200px; background:#f0f0f0; display:flex; align-items:center; justify-content:center;">中老年毛衣</div>
+                    <p>妈妈装/爸爸装毛衣</p>
+                </div>
+                <div class="product-card">
+                    <div style="height:200px; background:#f0f0f0; display:flex; align-items:center; justify-content:center;">亲子装毛衣</div>
+                    <p>亲子款针织衫/毛衣</p>
+                </div>
+                <div class="product-card">
+                    <div style="height:200px; background:#f0f0f0; display:flex; align-items:center; justify-content:center;">加工定制</div>
+                    <p>OEM/ODM来样定制</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>业务优势</h2>
+            <ul>
+                <li>✅ 工厂直供：自有工厂，省去中间商差价</li>
+                <li>✅ 一件代发：支持1件起批，电商客户友好</li>
+                <li>✅ 小单快返：灵活起订，快速打样出货</li>
+                <li>✅ 品质保障：多年针织品生产经验，做工扎实</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>联系我们</h2>
+            <p>工厂地址：广东省东莞市大朗镇富华南路一街</p>
+            <p>主营渠道：1688批发、淘宝/拼多多一件代发、抖音/视频号供货</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 东莞市瑄瑄家服装有限责任公司 版权所有</p>
+    </footer>
+</body>
+</html>
